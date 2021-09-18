@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #3ea9f5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Gotham SSm A,Gotham SSm B,Halvetica,sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    padding: 10px 20px 30px;
+    max-width: 595px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.textInput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.inputItem{
+    min-width: 200px;
+    align-self: center;
+    text-align: left;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #9CA8B7;
+    font-size: 16px;
+    padding: 21px 23px;
+}
+
+.radio{
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 15px;
+}
+
+.radioSpan1{
+    font-size: 20px;
+}
+
+.radioSpan2{
+    display: block;
+    margin-top: 5px;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.checkbox{
+    padding: 0 14px 1.15rem;
+}
+
+.creatButton{
+    min-width: 285px;
+    
+}
+
+#creat-account{
+    background-color: #28d2d0;
+    border-radius: 4px;
+    height: 64px;
+    width: 100%;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
